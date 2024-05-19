@@ -30,9 +30,23 @@ url: "https://mumawqaq.github.io/" # the base hostname & protocol for your site,
 github_username:  mumawQAQ
 
 # Build settings
-theme: minima
+theme: jekyll-theme-console
 plugins:
   - jekyll-feed
+
+
+header_pages:
+  - index.md
+  - peter.md
+  - about.md
+  - contact.md
+
+style: dark
+listen_for_clients_preferred_style: true
+
+footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+
+markdown: kramdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.

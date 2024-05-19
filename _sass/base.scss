@@ -47,6 +47,7 @@ footer { margin-bottom: 20px; }
 /**
  * Header/Navigation
  */
+.bash { font-weight: bold;}
 .menu { border-top: var(--border);  border-bottom: var(--border);  margin-bottom: 25px; }
 .menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
 .menu ul li { display: inline;  margin-left: 10px; }

@@ -36,6 +36,7 @@ plugins:
 
 header_pages:
   - index.md
+  - cat.md
 
 style: dark
 

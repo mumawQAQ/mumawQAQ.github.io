@@ -5,6 +5,7 @@ permalink: /
 ---
 {% highlight python %}
 class AboutMe:
+    """ A class to represent myself. """
     def __init__(self):
         self.name = "Guangrui Wang"
         self.location = "Pittsburgh, PA"

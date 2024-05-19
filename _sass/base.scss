@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700');
+@import 'typed';
 
 /**
  * Style variables
@@ -47,7 +48,14 @@ footer { margin-bottom: 20px; }
 /**
  * Header/Navigation
  */
-.bash { font-weight: bold;}
+.bash { font-weight: bold; margin-bottom: 8px}
+.bash .typewriter {
+  @include typed(
+                  "人生何处无青山",
+                  "Life's Not Out To Get You",
+                  (type: .1, pause-deleted: .5)
+  );
+}
 .menu { border-top: var(--border);  border-bottom: var(--border);  margin-bottom: 25px; }
 .menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
 .menu ul li { display: inline;  margin-left: 10px; }

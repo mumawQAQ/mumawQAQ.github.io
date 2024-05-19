@@ -4,10 +4,9 @@ layout: home
 permalink: /
 ---
 {% highlight python %}
-class AboutMe:
+class GuangruiWang:
     """ A class to represent myself. """
     def __init__(self):
-        self.name = "Guangrui Wang"
         self.location = "Pittsburgh, PA"
         self.education = "CS@PITT, ECE@CMU"
         self.occupation = "Software Engineer"
